@@ -1,0 +1,13 @@
+{
+    "name": "root/limelight-payments",
+    "description": "Package For Handeling Order and Subscription Payments Via The LimeLight API",
+    "type": "library",
+    "license": "none",
+    "authors": [
+        {
+            "name": "Camron Wood",
+            "email": "camronwood@gmail.com"
+        }
+    ],
+    "require": {}
+}
