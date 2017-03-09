@@ -1,12 +1,12 @@
 {
   "name": "omni-holding-company/limelight-payments",
-  "version": "1.0",
-  "description": "Package For Handling Order and Subscription Payments Via The LimeLight API",
   "type": "library",
-  "license": "none",
+  "description": "Package For Handling Order and Subscription Payments Via The LimeLight API",
   "keywords": [
     "Lime Light"
   ],
+  "homepage": "https://github.com/Seldaek/monolog",
+  "license": "none",
   "authors": [
     {
       "name": "Camron Wood",
@@ -15,7 +15,9 @@
       "role": "Senior Developer"
     }
   ],
-  "require": {},
+  "require": {
+    "php": ">=5.6"
+  },
   "autoload": {
     "psr-4": {
       "OmniHolding\\LimeLightPayments\\": "packages/omniholding/limelight-payments/src"
