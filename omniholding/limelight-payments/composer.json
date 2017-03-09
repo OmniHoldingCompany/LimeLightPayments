@@ -1,13 +1,23 @@
 {
-    "name": "root/limelight-payments",
-    "description": "Package For Handeling Order and Subscription Payments Via The LimeLight API",
-    "type": "library",
-    "license": "none",
-    "authors": [
-        {
-            "name": "Camron Wood",
-            "email": "camronwood@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "omni-holding-company/limelight-payments",
+  "description": "Package For Handling Order and Subscription Payments Via The LimeLight API",
+  "type": "library",
+  "license": "none",
+  "keywords": [
+    "Lime Light"
+  ],
+  "authors": [
+    {
+      "name": "Camron Wood",
+      "email": "camronwood@gmail.com",
+      "homepage": "http://www.omniholding.com/",
+      "role": "Senior Developer"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "OmniHolding\\LimeLightPayments\\": "packages/omniholding/limelight-payments/src"
+    }
+  }
 }
