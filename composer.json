@@ -15,6 +15,7 @@
     }
   ],
   "require": {},
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "OmniHolding\\LimeLightPayments\\": "packages/omniholding/limelight-payments/src"
