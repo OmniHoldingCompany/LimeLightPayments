@@ -1,5 +1,6 @@
 {
   "name": "omni-holding-company/limelight-payments",
+  "version": "1.0.0",
   "description": "Package For Handling Order and Subscription Payments Via The LimeLight API",
   "type": "library",
   "license": "none",
