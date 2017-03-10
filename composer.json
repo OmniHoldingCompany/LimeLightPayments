@@ -22,5 +22,10 @@
     "psr-4": {
       "OmniHolding\\LimeLightPayments\\": "packages/omni-holding-company/limelight-payments/src"
     }
+  },
+  "extra":{
+    "installer-paths":{
+      "packages": ["LimeLightPayments/omniholding"]
+    }
   }
 }
