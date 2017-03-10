@@ -13,19 +13,16 @@
       "role": "Senior Developer"
     }
   ],
-  "type": "laravel-library",
+  "type": "library",
   "require": {
-    "php": ">=5.6",
-    "composer/installers": "~1.0"
+    "php": ">=5.6"
   },
   "autoload": {
     "psr-4": {
       "OmniHolding\\LimeLightPayments\\": "packages/omni-holding-company/limelight-payments/src"
     }
   },
-  "extra":{
-    "installer-paths":{
-      "packages": ["LimeLightPayments/omniholding"]
-    }
+  "config": {
+    "vendor-dir": "packages"
   }
 }
