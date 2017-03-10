@@ -13,19 +13,14 @@
       "role": "Senior Developer"
     }
   ],
-  "type": "laravel-package",
+  "type": "package",
   "require": {
     "php": ">=5.6",
-    "composer/installers": "~1.0"
+    "kevinem/lime-light-crm-php": "^0.1.5"
   },
   "autoload": {
     "psr-4": {
-      "OmniHolding\\LimeLightPayments\\": "packages/omni-holding-company/limelight-payments/src"
-    }
-  },
-  "extra":{
-    "installer-paths":{
-      "laravel-package": ["omni-holding-company/limelight-payments"]
+      "OmniHolding\\LimeLightPayments\\": "/src"
     }
   }
 }
